@@ -108,7 +108,7 @@ class HistoricoReserva:
     usuarioId: Optional[int] = None;
 
 @dataclasses
-class UsuarioAdministracao:
+class UsuarioAdmin:
     id: int;
     nome: str;
     email: str;
